@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if profile image loaded correctly, use fallback if not
     const profileImg = document.getElementById('profile-img');
     profileImg.onerror = function() {
-        this.src = 'images/profile-placeholder.png';
+        this.src = 'images/20231029_134423.jpg';
     };
     
     // Check which GitHub project links are valid
